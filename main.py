@@ -1,10 +1,13 @@
-import speech_recognition as sr
-import webbrowser
-import pyttsx3
-import requests
-import openai
-from gtts import gTTS
-import pygame
+import speech_recognition as sr # Used for speech-to-text conversion.
+
+import webbrowser # Used to open URLs in a web browser.
+import pyttsx3 # Used for text-to-speech conversion... # Works offline and allows control over speech speed and volume.
+import requests # Used to send HTTP requests (GET, POST, etc.) to APIs and websites.  # Fetch data from an API.
+import openai # Used to interact with OpenAI APIs (like ChatGPT, geminia) , Requires an API key for access.
+from gtts import gTTS #gTTS (Google Text-to-Speech) is a Python library used for converting text to speech using Google's TTS API. 
+                      # It generates natural-sounding speech and supports multiple languages and accents.
+import pygame # pygame is a Python library used for game development and multimedia applications.
+              # It provides functions for graphics, sound, input handling, and event management.
 import os
 from musicLibrary import musicLibrary  # Import the musicLibrary dictionary
 
