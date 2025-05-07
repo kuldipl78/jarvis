@@ -6,8 +6,7 @@ import requests # Used to send HTTP requests (GET, POST, etc.) to APIs and websi
 import openai # Used to interact with OpenAI APIs (like ChatGPT, geminia) , Requires an API key for access.
 from gtts import gTTS #gTTS (Google Text-to-Speech) is a Python library used for converting text to speech using Google's TTS API. 
                       # It generates natural-sounding speech and supports multiple languages and accents.
-import pygame # pygame is a Python library used for game development and multimedia applications.
-              # It provides functions for graphics, sound, input handling, and event management.
+import pygame # To play audio files.
 import os
 from musicLibrary import musicLibrary  # Import the musicLibrary dictionary
 
